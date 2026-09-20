@@ -73,7 +73,7 @@
   Recursively scan Git-tracked files, fail on prohibited extensions, fail on files larger than 50 MB, parse every notebook, check empty outputs, compile code cells, and report absolute Windows paths. Accept `--root` and return exit code 0 only when all checks pass.
 
 - [ ] **Step 2: Implement dry-run runner**
-  `run_all.py --root . --dry-run` prints the five notebook paths in execution order. Without `--dry-run`, run each notebook with `jupyter nbconvert --execute --inplace` from its parent directory and stop on the first failure.
+  `run_all.py --root . --dry-run` prints the five notebook paths in execution order. Without `--dry-run`, run each notebook with `jupyter nbconvert --execute`, write executed copies under the ignored `.executed/` directory, preserve the clean source notebooks, and stop on the first failure.
 
 - [ ] **Step 3: Add script usage docs**
   Document both commands in `README.md` and `analysis/README.md`, noting that full execution requires the Zenodo data tree and produces ignored local outputs.

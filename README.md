@@ -97,7 +97,7 @@ After the Zenodo data are in place, execute the full workflow:
 python scripts/run_all.py --root .
 ```
 
-Each notebook is executed from its own directory so that its relative paths remain stable. Generated tables, figures and executed notebook outputs are local artifacts and are excluded from Git.
+Each notebook is executed from its own directory so that its relative paths remain stable. Executed notebook copies are written under `.executed/`; generated tables and figures remain beside their workflows. All of these local artifacts are excluded from Git, so the clean source notebooks stay output-free.
 
 ## Reproduction scope and limitations
 

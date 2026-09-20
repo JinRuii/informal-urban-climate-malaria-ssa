@@ -17,7 +17,7 @@ python scripts/run_all.py --root .
 4. `supplementary/supplementary.ipynb` creates supplementary maps, descriptive tables and Figure 4 regional decomposition.
 5. `supplementary/sensitivity.ipynb` runs robustness analyses and writes supplementary sensitivity tables and figures.
 
-All generated artifacts are ignored by Git. The data must first be placed under `analysis/data/` according to [data/README.md](data/README.md).
+Executed notebook copies are written under the repository-level `.executed/` directory. Other generated artifacts are written beside their workflows and ignored by Git. The source notebooks remain output-free. The data must first be placed under `analysis/data/` according to [data/README.md](data/README.md).
 
 Before committing changes, run:
 
