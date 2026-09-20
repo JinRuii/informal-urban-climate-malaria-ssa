@@ -1,0 +1,67 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.env
+
+# IDE, OS and cloud-sync files
+.DS_Store
+Thumbs.db
+*.cfg
+~$*
+
+# Manuscripts, references and archives
+*.doc
+*.docx
+*.docm
+*.pdf
+*.rar
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Research data and tabular outputs
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.feather
+*.geojson
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.tif
+*.tiff
+*.nc
+*.grib
+*.grib2
+*.zarr/
+
+# Generated figures and analysis outputs
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.eps
+analysis/**/figures/
+analysis/**/tables/
+analysis/**/model_outputs/
+analysis/**/outputs/
+analysis/figure4/result4_*
+
+# Keep the data contract, ignore all local data
+analysis/data/**
+!analysis/data/README.md

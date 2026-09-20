@@ -1,0 +1,13 @@
+Citation metadata status: author confirmation required before public release.
+
+Manuscript title:
+Informal urban conditions shape heat- and flood-related malaria burden across sub-Saharan Africa
+
+Required final metadata:
+- complete ordered author list and ORCID identifiers;
+- manuscript year, journal, DOI and publication status;
+- GitHub repository owner and final URL;
+- Zenodo dataset creators, version and DOI;
+- approved code licence.
+
+After confirmation, replace this file with a schema-valid CITATION.cff and add the formatted paper and dataset citations to README.md.
