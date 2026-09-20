@@ -1,5 +1,5 @@
 .gitignore
-LICENSE_PLACEHOLDER.md
+LICENSE
 README.md
 analysis/README.md
 analysis/data/README.md
@@ -11,6 +11,7 @@ analysis/supplementary/supplementary.ipynb
 docs/data_availability.md
 docs/release_checklist.md
 docs/repository_map.md
+RIGHTS_AND_LICENSING.md
 docs/tracked_files_manifest.txt
 environment.yml
 requirements.txt

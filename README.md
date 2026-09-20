@@ -107,7 +107,7 @@ Accordingly, this repository supports review and rerunning of the retained analy
 
 ## License
 
-No software license has yet been authorized by the authors. Until a license is selected, copyright is retained and no reuse permission is granted. Replace [LICENSE_PLACEHOLDER.md](LICENSE_PLACEHOLDER.md) with the approved license before public release. Third-party datasets may have separate terms and must not be relicensed by this repository.
+The analysis code is released under the [MIT License](LICENSE). Data are hosted separately on Zenodo and are subject to the licences specified there. Third-party datasets retain their original terms of use. See [RIGHTS_AND_LICENSING.md](RIGHTS_AND_LICENSING.md) for the data-rights summary.
 
 ## Author release checks
 
