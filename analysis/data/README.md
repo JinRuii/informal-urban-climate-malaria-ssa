@@ -1,6 +1,6 @@
 # Local analysis data (not tracked by Git)
 
-Download the companion Zenodo record after its DOI is assigned. From the deposit, copy the contents of `01_main_analysis/malaria_rui/data/` into this directory.
+Download the companion data from [Zenodo (DOI: 10.5281/zenodo.22851757)](https://doi.org/10.5281/zenodo.22851757). From the deposit, copy the contents of `01_main_analysis/malaria_rui/data/` into this directory.
 
 Expected layout:
 
@@ -24,6 +24,6 @@ The retained source package describes the administrative-unit layer as 4,320 fea
 
 ## Important scope limitation
 
-The planned Zenodo package does not contain every upstream flood, malaria or intermediate raster layer used earlier in preprocessing. The retained malaria indicators are population-weighted derived estimates mapped from source administrative-unit means to the analysis grid. These files support the retained analysis workflow but do not reconstruct every upstream preprocessing step.
+The Zenodo package does not contain every upstream flood, malaria or intermediate raster layer used earlier in preprocessing. The retained malaria indicators are population-weighted derived estimates mapped from source administrative-unit means to the analysis grid. These files support the retained analysis workflow but do not reconstruct every upstream preprocessing step.
 
 Do not commit any file placed in this directory. The repository `.gitignore` keeps only this README under version control.

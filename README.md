@@ -4,13 +4,13 @@ Code companion for the manuscript **“Informal urban conditions shape heat- and
 
 The study integrates slum-population-weighted heat and flood exposure, an Environmental Deprivation Index (EDI), and malaria infection, incidence and mortality across more than 3,900 subnational units. The analysis evaluates two stage-specific ecological transitions: infection to incidence and incidence to mortality.
 
-> **Publication status:** manuscript under submission. **Zenodo DOI: not yet assigned.** Add the final paper and Zenodo links before making this repository public.
+> **Publication status:** manuscript in preparation. **Zenodo data:** [https://doi.org/10.5281/zenodo.22851757](https://doi.org/10.5281/zenodo.22851757).
 
 ## What is and is not included
 
 This repository contains analysis code, environment specifications, execution instructions and data-layout documentation. It intentionally contains **no research data, manuscript files, Supplementary Information documents, reference PDFs, archives, generated figures or generated model outputs**.
 
-The analysis data will be released separately through Zenodo after the authors complete the repository metadata and licensing checks. See [Data Availability](docs/data_availability.md) and the [data-layout contract](analysis/data/README.md).
+The analysis data are hosted separately on Zenodo under DOI [10.5281/zenodo.22851757](https://doi.org/10.5281/zenodo.22851757). See [Data Availability](docs/data_availability.md) and the [data-layout contract](analysis/data/README.md).
 
 ## Repository layout
 
@@ -59,7 +59,7 @@ The notebooks use geospatial libraries with compiled dependencies. A conda-forge
 
 ## Obtain and place the data
 
-1. Download the companion Zenodo record after its DOI is added here.
+1. Download the companion data from [Zenodo (DOI: 10.5281/zenodo.22851757)](https://doi.org/10.5281/zenodo.22851757).
 2. From the Zenodo package, locate `01_main_analysis/malaria_rui/data/`.
 3. Copy the **contents** of that directory into `analysis/data/` without renaming its subdirectories.
 4. Read [analysis/data/README.md](analysis/data/README.md) and verify the expected files.
@@ -104,10 +104,6 @@ Each notebook is executed from its own directory so that its relative paths rema
 The retained Zenodo package is designed to reproduce analyses from processed, analysis-ready spatial products. It does not contain every upstream flood, malaria or intermediate raster layer used earlier in preprocessing. In particular, the retained malaria indicators were mapped from source administrative-unit means to the slum-population analysis grid; they are population-weighted derived estimates rather than a new calculation from original malaria rasters.
 
 Accordingly, this repository supports review and rerunning of the retained analysis workflow, but not complete reconstruction of every upstream data-processing step. Additional provenance details are in [docs/data_availability.md](docs/data_availability.md).
-
-## Citation
-
-The paper, dataset DOI, repository URL and full author list have not yet been finalized. Before public release, replace [CITATION_TEMPLATE.txt](CITATION_TEMPLATE.txt) with a validated `CITATION.cff` and add the paper citation here. Do not invent or pre-register a DOI in this repository.
 
 ## License
 

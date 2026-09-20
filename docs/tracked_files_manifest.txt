@@ -1,5 +1,4 @@
 .gitignore
-CITATION_TEMPLATE.txt
 LICENSE_PLACEHOLDER.md
 README.md
 analysis/README.md
@@ -12,8 +11,6 @@ analysis/supplementary/supplementary.ipynb
 docs/data_availability.md
 docs/release_checklist.md
 docs/repository_map.md
-docs/superpowers/plans/2026-09-20-github-reproducibility-repository.md
-docs/superpowers/specs/2026-09-20-github-reproducibility-repository-design.md
 docs/tracked_files_manifest.txt
 environment.yml
 requirements.txt

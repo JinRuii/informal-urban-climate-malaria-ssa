@@ -2,11 +2,11 @@
 
 ## Current status
 
-The public access route for the supporting data is a planned Zenodo deposit. **Zenodo DOI: not yet assigned.** The GitHub repository contains code and documentation only.
+The supporting data are available from Zenodo at [https://doi.org/10.5281/zenodo.22851757](https://doi.org/10.5281/zenodo.22851757). The GitHub repository contains code and documentation only.
 
 ## Dataset-to-location mapping
 
-| Dataset family | Role in the analysis | Planned access route |
+| Dataset family | Role in the analysis | Access route |
 |---|---|---|
 | Administrative-unit analysis Shapefile | EDI, slum population, climate exposure, malaria indicators and model covariates | Zenodo processed-data package |
 | Country/region Shapefile | boundaries, country identifiers and African region labels | Zenodo processed-data package |
@@ -17,9 +17,9 @@ The public access route for the supporting data is a planned Zenodo deposit. **Z
 
 ## Draft Data Availability statement
 
-The processed data supporting the findings of this study will be deposited in Zenodo before public release of the associated code repository. The deposit will contain the analysis-ready administrative-unit and country boundary datasets, annual HI406 and WBGT30 exposure rasters for 2011–2020, a slum-population raster template, metadata and a data dictionary. The final Zenodo DOI will be added to the manuscript and GitHub repository once assigned. Public third-party datasets reused in the analysis should be cited separately in the manuscript with their original sources, versions and identifiers. The retained deposit supports reproduction from the processed analysis products but does not include every upstream flood, malaria or intermediate raster layer used during earlier preprocessing.
+The processed data supporting the findings of this study are available in Zenodo at [https://doi.org/10.5281/zenodo.22851757](https://doi.org/10.5281/zenodo.22851757). The deposit contains the analysis-ready administrative-unit and country boundary datasets, annual HI406 and WBGT30 exposure rasters for 2011–2020, a slum-population raster template, metadata and a data dictionary. The retained deposit supports reproduction from the processed analysis products but does not include every upstream flood, malaria or intermediate raster layer used during earlier preprocessing.
 
-This wording is a release draft, not a final submission statement, because the DOI, creators, data licence and third-party redistribution review remain unresolved.
+The creator metadata, data licence and third-party redistribution rights should be confirmed before the repository is made public.
 
 ## Provenance limitation
 
@@ -27,20 +27,19 @@ The retained malaria variables were mapped from source administrative-unit means
 
 ## Zenodo metadata requirements
 
-Before publication, the Zenodo landing page should include:
+Before public release, confirm that the Zenodo landing page includes:
 
-- a persistent DOI and version;
+- DOI `10.5281/zenodo.22851757` and clear version metadata;
 - the confirmed creator list and ORCID identifiers;
 - the manuscript title and related GitHub release;
 - a concise spatial and temporal description;
 - file inventory, sizes and checksums;
 - the data dictionary and processing/provenance record;
 - an author-approved data licence that does not conflict with third-party rights; and
-- related identifiers linking the dataset, code release and paper.
+- a related identifier linking the dataset to the final code release.
 
 ## Risk flags requiring author resolution
 
 - Confirm redistribution rights for every retained third-party or derived layer.
 - Select the data licence in Zenodo; do not automatically reuse the future code licence.
-- Add final upstream dataset citations, versions and access dates to the manuscript.
 - Test the public or reviewer-only Zenodo link outside the depositor account.
